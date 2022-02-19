@@ -1,6 +1,6 @@
-#AngularJS File Upload Demo
+# AngularJS File Upload Demo
 
-##File upload page and File list page with metadata
+## File upload page and File list page with metadata
 
 To run the app
 
