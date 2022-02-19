@@ -1,0 +1,16 @@
+<h1>Upload plain text file.</h1>
+
+<form novalidate name="form">
+    <div class="file-upload">
+        <input name="file-upload"
+               ng-model="file.upload"
+               file-upload="showFileContent"
+               class="form-control form-control-lg"
+               id="fileInput" type="file" accept="text/plain"><br/>
+        <button ng-click="showFileContent()" type="button" class="btn btn-primary btn-lg">Upload</button>
+    </div>
+</form>
+<div class="file-contents" ng-if="fileData.fileContent">
+    <p>File contents:</p>
+    <pre>{{fileData.fileContent}}</pre>
+</div>

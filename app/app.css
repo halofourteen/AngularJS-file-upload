@@ -1,0 +1,46 @@
+/* app css stylesheet */
+body {
+    min-width: 500px;
+}
+
+.content {
+    margin: 30px;
+}
+
+.file-upload {
+    margin-top: 30px;
+}
+
+.file-contents {
+    margin-top: 30px;
+}
+
+.file-contents pre {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.menu {
+    list-style: none;
+    border-bottom: 0.1em solid black;
+    margin-bottom: 2em;
+    padding: 0 0 0.5em;
+}
+
+.menu:before {
+    content: "[";
+}
+
+.menu:after {
+    content: "]";
+}
+
+.menu > li {
+    display: inline;
+}
+
+.menu > li + li:before {
+    content: "|";
+    padding-right: 0.3em;
+}
